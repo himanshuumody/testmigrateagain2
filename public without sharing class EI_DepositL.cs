@@ -146,6 +146,7 @@ public without sharing class EI_DepositLookupapex {
         gen.writeStringField('Name', username);
         gen.writeEndObject();      
         gen.writeEndArray();
+        gen.writeEndArray11();
         
         gen.writeNumberField('TemplateID', 2387020);
         gen.writeBooleanField('TemplateLanguage', true);
